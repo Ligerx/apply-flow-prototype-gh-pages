@@ -1,0 +1,205 @@
+.btn {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #12a67c;
+  color: white;
+  border: none;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.btn:hover {
+  background-color: #0c845f;
+}
+
+/* .btn:active {
+  background-color: #0a6745;
+} */
+
+.secondary-btn {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #12a67c;
+  background-color: white;
+  color: #12a67c;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.secondary-btn:hover {
+  background-color: #12a67c;
+  color: white;
+}
+
+/* .secondary-btn:active {
+  background-color: #0a6745;
+  color: white;
+  border-color: #0a6745;
+} */
+
+.btn-pill {
+  border-radius: 100px;
+}
+
+.text-input {
+  border-radius: 4px;
+  border: solid 1px #a1aab3;
+  background-color: #ffffff;
+  height: 40px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.text-input:hover {
+  border: solid 1px #7b858f;
+}
+
+.text-input:focus {
+  border: solid 2px #0875e1;
+}
+
+.radio {
+  margin-right: 8px;
+}
+
+.radio-label {
+  font-size: 14px;
+  color: #333;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.checkbox {
+}
+
+/* AddressInput component styling */
+/* https://github.com/hibiken/react-places-autocomplete/tree/master/demo */
+
+.Demo__map-maker-icon {
+  color: #fd6c6c;
+}
+
+.Demo__github-icon {
+  font-size: 24px;
+}
+
+.Demo__github-link {
+  color: #262626;
+  font-size: 20px;
+}
+
+.Demo__github-link:hover,
+.Demo__github-link:active {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+/* .Demo__suggestion-icon {
+  margin-right: 8px;
+} */
+
+.Demo__search-bar-container {
+  /* width: 100%;
+  max-width: 500px;
+  margin: 40px auto 0; */
+
+  color: #333;
+  font-size: 14px;
+}
+
+/* .Demo__search-input-container {
+  position: relative;
+} */
+
+.Demo__search-input,
+.Demo__search-input:focus,
+.Demo__search-input:active {
+  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: rgb(192, 192, 192); */
+  /* display: block;
+  width: 100%; */
+  /* padding: 16px; */
+  font-size: 14px;
+  /* border-radius: 2px; */
+  /* outline: none; */
+
+  border-radius: 4px;
+  border: solid 1px #a1aab3;
+  background-color: #ffffff;
+}
+/* 
+.Demo__clear-button,
+.Demo__clear-button:active,
+.Demo__clear-button:focus {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  color: #999;
+} */
+
+.Demo__autocomplete-container {
+  border-bottom: 1px solid honeydew;
+  border-left: 1px solid honeydew;
+  border-right: 1px solid honeydew;
+  border-top: 1px solid #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 0 0 2px 2px;
+
+  /* border-radius: 4px;
+  border: solid 0px #a1aab3;
+  background-color: #ffffff; */
+}
+
+.Demo__suggestion-item {
+  padding: 8px;
+  text-align: left;
+  background-color: #fff;
+  cursor: pointer;
+
+  color: #333;
+  font-size: 14px;
+  border-top: 1px solid rgb(179, 179, 179);
+}
+
+.Demo__suggestion-item--active {
+  background-color: #eeeeee;
+}
+
+.Demo__dropdown-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px;
+}
+
+.Demo__dropdown-footer-image {
+  display: inline-block;
+  width: 150px;
+}
+
+.Demo__spinner {
+  color: #18bc9c;
+  font-size: 30px;
+}
+
+.Demo__error-message {
+  color: red;
+}
+
+.Demo__geocode-result-header {
+  font-size: 20px;
+  color: #222222;
+}
+
+.Demo__hide-menu {
+  opacity: 0;
+}
+
+.reset-font-color {
+  color: #333;
+}
